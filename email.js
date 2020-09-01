@@ -22,7 +22,7 @@ module.exports = class Email {
     let mailOptions;
 
     //1) Render html based on the pug template
-      // html = pug.renderFile(`${__dirname}/../views/email/failedPayments.pug`, {
+      // html = pug.renderFile(`${__dirname}/../views/email/transactionEmailTemplate.pug`, {
       //  data:this.data
       // });
   
